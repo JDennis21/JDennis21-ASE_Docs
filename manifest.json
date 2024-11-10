@@ -1,5 +1,5 @@
 {
-  "source_base_path": "C:/Users/Josh/source/repos/documentation",
+  "source_base_path": "C:/Users/joshd/source/repos/Documentation",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -36,6 +36,16 @@
       "output": {
         ".html": {
           "relative_path": "api/ASE_Assignment.AppCommandFactory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/docs/ASE_Assignment.BooseInterpreter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_Assignment.BooseInterpreter.html"
         }
       },
       "version": ""
@@ -86,6 +96,16 @@
       "output": {
         ".html": {
           "relative_path": "api/ASE_Assignment.Rect.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/docs/ASE_Assignment.WriteText.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_Assignment.WriteText.html"
         }
       },
       "version": ""

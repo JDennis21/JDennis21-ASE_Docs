@@ -170,6 +170,22 @@ references:
   isSpec: "True"
   fullName: ASE_Assignment.AppCanvas.SetColour
   nameWithType: AppCanvas.SetColour
+- uid: ASE_Assignment.AppCanvas.WriteText(System.String)
+  name: WriteText(string)
+  href: api/ASE_Assignment.AppCanvas.html#ASE_Assignment_AppCanvas_WriteText_System_String_
+  commentId: M:ASE_Assignment.AppCanvas.WriteText(System.String)
+  name.vb: WriteText(String)
+  fullName: ASE_Assignment.AppCanvas.WriteText(string)
+  fullName.vb: ASE_Assignment.AppCanvas.WriteText(String)
+  nameWithType: AppCanvas.WriteText(string)
+  nameWithType.vb: AppCanvas.WriteText(String)
+- uid: ASE_Assignment.AppCanvas.WriteText*
+  name: WriteText
+  href: api/ASE_Assignment.AppCanvas.html#ASE_Assignment_AppCanvas_WriteText_
+  commentId: Overload:ASE_Assignment.AppCanvas.WriteText
+  isSpec: "True"
+  fullName: ASE_Assignment.AppCanvas.WriteText
+  nameWithType: AppCanvas.WriteText
 - uid: ASE_Assignment.AppCanvas.getBitmap
   name: getBitmap()
   href: api/ASE_Assignment.AppCanvas.html#ASE_Assignment_AppCanvas_getBitmap
@@ -205,6 +221,60 @@ references:
   isSpec: "True"
   fullName: ASE_Assignment.AppCommandFactory.MakeCommand
   nameWithType: AppCommandFactory.MakeCommand
+- uid: ASE_Assignment.BooseInterpreter
+  name: BooseInterpreter
+  href: api/ASE_Assignment.BooseInterpreter.html
+  commentId: T:ASE_Assignment.BooseInterpreter
+  fullName: ASE_Assignment.BooseInterpreter
+  nameWithType: BooseInterpreter
+- uid: ASE_Assignment.BooseInterpreter.#ctor
+  name: BooseInterpreter()
+  href: api/ASE_Assignment.BooseInterpreter.html#ASE_Assignment_BooseInterpreter__ctor
+  commentId: M:ASE_Assignment.BooseInterpreter.#ctor
+  name.vb: New()
+  fullName: ASE_Assignment.BooseInterpreter.BooseInterpreter()
+  fullName.vb: ASE_Assignment.BooseInterpreter.New()
+  nameWithType: BooseInterpreter.BooseInterpreter()
+  nameWithType.vb: BooseInterpreter.New()
+- uid: ASE_Assignment.BooseInterpreter.#ctor*
+  name: BooseInterpreter
+  href: api/ASE_Assignment.BooseInterpreter.html#ASE_Assignment_BooseInterpreter__ctor_
+  commentId: Overload:ASE_Assignment.BooseInterpreter.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: ASE_Assignment.BooseInterpreter.BooseInterpreter
+  fullName.vb: ASE_Assignment.BooseInterpreter.New
+  nameWithType: BooseInterpreter.BooseInterpreter
+  nameWithType.vb: BooseInterpreter.New
+- uid: ASE_Assignment.BooseInterpreter.Dispose(System.Boolean)
+  name: Dispose(bool)
+  href: api/ASE_Assignment.BooseInterpreter.html#ASE_Assignment_BooseInterpreter_Dispose_System_Boolean_
+  commentId: M:ASE_Assignment.BooseInterpreter.Dispose(System.Boolean)
+  name.vb: Dispose(Boolean)
+  fullName: ASE_Assignment.BooseInterpreter.Dispose(bool)
+  fullName.vb: ASE_Assignment.BooseInterpreter.Dispose(Boolean)
+  nameWithType: BooseInterpreter.Dispose(bool)
+  nameWithType.vb: BooseInterpreter.Dispose(Boolean)
+- uid: ASE_Assignment.BooseInterpreter.Dispose*
+  name: Dispose
+  href: api/ASE_Assignment.BooseInterpreter.html#ASE_Assignment_BooseInterpreter_Dispose_
+  commentId: Overload:ASE_Assignment.BooseInterpreter.Dispose
+  isSpec: "True"
+  fullName: ASE_Assignment.BooseInterpreter.Dispose
+  nameWithType: BooseInterpreter.Dispose
+- uid: ASE_Assignment.BooseInterpreter.UpdatePictureBox
+  name: UpdatePictureBox()
+  href: api/ASE_Assignment.BooseInterpreter.html#ASE_Assignment_BooseInterpreter_UpdatePictureBox
+  commentId: M:ASE_Assignment.BooseInterpreter.UpdatePictureBox
+  fullName: ASE_Assignment.BooseInterpreter.UpdatePictureBox()
+  nameWithType: BooseInterpreter.UpdatePictureBox()
+- uid: ASE_Assignment.BooseInterpreter.UpdatePictureBox*
+  name: UpdatePictureBox
+  href: api/ASE_Assignment.BooseInterpreter.html#ASE_Assignment_BooseInterpreter_UpdatePictureBox_
+  commentId: Overload:ASE_Assignment.BooseInterpreter.UpdatePictureBox
+  isSpec: "True"
+  fullName: ASE_Assignment.BooseInterpreter.UpdatePictureBox
+  nameWithType: BooseInterpreter.UpdatePictureBox
 - uid: ASE_Assignment.Circle
   name: Circle
   href: api/ASE_Assignment.Circle.html
@@ -423,6 +493,69 @@ references:
   isSpec: "True"
   fullName: ASE_Assignment.Rect.Execute
   nameWithType: Rect.Execute
+- uid: ASE_Assignment.WriteText
+  name: WriteText
+  href: api/ASE_Assignment.WriteText.html
+  commentId: T:ASE_Assignment.WriteText
+  fullName: ASE_Assignment.WriteText
+  nameWithType: WriteText
+- uid: ASE_Assignment.WriteText.#ctor
+  name: WriteText()
+  href: api/ASE_Assignment.WriteText.html#ASE_Assignment_WriteText__ctor
+  commentId: M:ASE_Assignment.WriteText.#ctor
+  name.vb: New()
+  fullName: ASE_Assignment.WriteText.WriteText()
+  fullName.vb: ASE_Assignment.WriteText.New()
+  nameWithType: WriteText.WriteText()
+  nameWithType.vb: WriteText.New()
+- uid: ASE_Assignment.WriteText.#ctor(BOOSE.Canvas,System.String)
+  name: WriteText(Canvas, string)
+  href: api/ASE_Assignment.WriteText.html#ASE_Assignment_WriteText__ctor_BOOSE_Canvas_System_String_
+  commentId: M:ASE_Assignment.WriteText.#ctor(BOOSE.Canvas,System.String)
+  name.vb: New(Canvas, String)
+  fullName: ASE_Assignment.WriteText.WriteText(BOOSE.Canvas, string)
+  fullName.vb: ASE_Assignment.WriteText.New(BOOSE.Canvas, String)
+  nameWithType: WriteText.WriteText(Canvas, string)
+  nameWithType.vb: WriteText.New(Canvas, String)
+- uid: ASE_Assignment.WriteText.#ctor*
+  name: WriteText
+  href: api/ASE_Assignment.WriteText.html#ASE_Assignment_WriteText__ctor_
+  commentId: Overload:ASE_Assignment.WriteText.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: ASE_Assignment.WriteText.WriteText
+  fullName.vb: ASE_Assignment.WriteText.New
+  nameWithType: WriteText.WriteText
+  nameWithType.vb: WriteText.New
+- uid: ASE_Assignment.WriteText.CheckParameters(System.String[])
+  name: CheckParameters(string[])
+  href: api/ASE_Assignment.WriteText.html#ASE_Assignment_WriteText_CheckParameters_System_String___
+  commentId: M:ASE_Assignment.WriteText.CheckParameters(System.String[])
+  name.vb: CheckParameters(String())
+  fullName: ASE_Assignment.WriteText.CheckParameters(string[])
+  fullName.vb: ASE_Assignment.WriteText.CheckParameters(String())
+  nameWithType: WriteText.CheckParameters(string[])
+  nameWithType.vb: WriteText.CheckParameters(String())
+- uid: ASE_Assignment.WriteText.CheckParameters*
+  name: CheckParameters
+  href: api/ASE_Assignment.WriteText.html#ASE_Assignment_WriteText_CheckParameters_
+  commentId: Overload:ASE_Assignment.WriteText.CheckParameters
+  isSpec: "True"
+  fullName: ASE_Assignment.WriteText.CheckParameters
+  nameWithType: WriteText.CheckParameters
+- uid: ASE_Assignment.WriteText.Execute
+  name: Execute()
+  href: api/ASE_Assignment.WriteText.html#ASE_Assignment_WriteText_Execute
+  commentId: M:ASE_Assignment.WriteText.Execute
+  fullName: ASE_Assignment.WriteText.Execute()
+  nameWithType: WriteText.Execute()
+- uid: ASE_Assignment.WriteText.Execute*
+  name: Execute
+  href: api/ASE_Assignment.WriteText.html#ASE_Assignment_WriteText_Execute_
+  commentId: Overload:ASE_Assignment.WriteText.Execute
+  isSpec: "True"
+  fullName: ASE_Assignment.WriteText.Execute
+  nameWithType: WriteText.Execute
 - uid: ASE_AssignmentTests
   name: ASE_AssignmentTests
   href: api/ASE_AssignmentTests.html
