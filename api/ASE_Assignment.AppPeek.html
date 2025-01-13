@@ -5,11 +5,11 @@
   <head>
     <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-      <title>Class Circle | ASE_Docs </title>
+      <title>Class AppPeek | ASE_Docs </title>
       <meta name="viewport" content="width=device-width">
-      <meta name="title" content="Class Circle | ASE_Docs ">
+      <meta name="title" content="Class AppPeek | ASE_Docs ">
     
-    <meta name="description" content="Command to draw a circle on the canvas.">
+    <meta name="description" content="Represents peek operation within the application, inherits from  and overrides functionality to perform compilation and execution of the peek command.">
       <link rel="shortcut icon" href="../favicon.ico">
       <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
       <link rel="stylesheet" href="../styles/docfx.css">
@@ -76,21 +76,22 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="ASE_Assignment.Circle">
+            <article class="content wrap" id="_content" data-uid="ASE_Assignment.AppPeek">
 
 
 
-  <h1 id="ASE_Assignment_Circle" data-uid="ASE_Assignment.Circle" class="text-break">Class Circle</h1>
-  <div class="markdown level0 summary"><p>Command to draw a circle on the canvas.</p>
+  <h1 id="ASE_Assignment_AppPeek" data-uid="ASE_Assignment.AppPeek" class="text-break">Class AppPeek</h1>
+  <div class="markdown level0 summary"><p>Represents peek operation within the application, inherits from <a class="xref" href="ASE_Assignment.AppArray.html">AppArray</a> and overrides functionality to perform compilation and execution
+of the peek command.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
     <div class="level1"><span class="xref">Command</span></div>
-    <div class="level2"><span class="xref">CanvasCommand</span></div>
-    <div class="level3"><span class="xref">CommandOneParameter</span></div>
-    <div class="level4"><span class="xref">Circle</span></div>
+    <div class="level2"><span class="xref">Evaluation</span></div>
+    <div class="level3"><a class="xref" href="ASE_Assignment.AppArray.html">AppArray</a></div>
+    <div class="level4"><span class="xref">AppPeek</span></div>
   </div>
   <div class="implements">
     <h5>Implements</h5>
@@ -99,22 +100,55 @@
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
-      <span class="xref">CommandOneParameter.param1</span>
+      <a class="xref" href="ASE_Assignment.AppArray.html#ASE_Assignment_AppArray_variableType">AppArray.variableType</a>
     </div>
     <div>
-      <span class="xref">CommandOneParameter.param1unprocessed</span>
+      <a class="xref" href="ASE_Assignment.AppArray.html#ASE_Assignment_AppArray_pokeValue">AppArray.pokeValue</a>
     </div>
     <div>
-      <span class="xref">CanvasCommand.yPos</span>
+      <a class="xref" href="ASE_Assignment.AppArray.html#ASE_Assignment_AppArray_peekValue">AppArray.peekValue</a>
     </div>
     <div>
-      <span class="xref">CanvasCommand.xPos</span>
+      <a class="xref" href="ASE_Assignment.AppArray.html#ASE_Assignment_AppArray_valueInt">AppArray.valueInt</a>
     </div>
     <div>
-      <span class="xref">CanvasCommand.canvas</span>
+      <a class="xref" href="ASE_Assignment.AppArray.html#ASE_Assignment_AppArray_valueReal">AppArray.valueReal</a>
     </div>
     <div>
-      <span class="xref">CanvasCommand.Canvas</span>
+      <a class="xref" href="ASE_Assignment.AppArray.html#ASE_Assignment_AppArray_CheckParameters_System_String___">AppArray.CheckParameters(string[])</a>
+    </div>
+    <div>
+      <a class="xref" href="ASE_Assignment.AppArray.html#ASE_Assignment_AppArray_ProcessArrayParametersCompile_System_Boolean_">AppArray.ProcessArrayParametersCompile(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="ASE_Assignment.AppArray.html#ASE_Assignment_AppArray_ProcessArrayParametersExecute_System_Boolean_">AppArray.ProcessArrayParametersExecute(bool)</a>
+    </div>
+    <div>
+      <span class="xref">Evaluation.expression</span>
+    </div>
+    <div>
+      <span class="xref">Evaluation.evaluatedExpression</span>
+    </div>
+    <div>
+      <span class="xref">Evaluation.varName</span>
+    </div>
+    <div>
+      <span class="xref">Evaluation.value</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Evaluation.ProcessExpression(string)</a>
+    </div>
+    <div>
+      <span class="xref">Evaluation.Expression</span>
+    </div>
+    <div>
+      <span class="xref">Evaluation.VarName</span>
+    </div>
+    <div>
+      <span class="xref">Evaluation.Value</span>
+    </div>
+    <div>
+      <span class="xref">Evaluation.Local</span>
     </div>
     <div>
       <span class="xref">Command.program</span>
@@ -130,9 +164,6 @@
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Command.Set(StoredProgram, string)</a>
-    </div>
-    <div>
-      <span class="xref">Command.Compile()</span>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Command.ProcessParameters(string)</a>
@@ -176,100 +207,48 @@
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="ASE_Assignment.html">ASE_Assignment</a></h6>
   <h6><strong>Assembly</strong>: ASE_Assignment.dll</h6>
-  <h5 id="ASE_Assignment_Circle_syntax">Syntax</h5>
+  <h5 id="ASE_Assignment_AppPeek_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class Circle : CommandOneParameter, ICommand</code></pre>
+    <pre><code class="lang-csharp hljs">public class AppPeek : AppArray, ICommand</code></pre>
   </div>
-  <h3 id="constructors">Constructors
-</h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/ASE-Classroom/ase-boose-assignment-JDennis21/new/main/apiSpec/new?filename=ASE_Assignment_Circle__ctor.md&amp;value=---%0Auid%3A%20ASE_Assignment.Circle.%23ctor%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/ASE-Classroom/ase-boose-assignment-JDennis21/blob/main/ASE_Assignment/Circle.cs/#L15">View Source</a>
-  </span>
-  <a id="ASE_Assignment_Circle__ctor_" data-uid="ASE_Assignment.Circle.#ctor*"></a>
-  <h4 id="ASE_Assignment_Circle__ctor" data-uid="ASE_Assignment.Circle.#ctor">Circle()</h4>
-  <div class="markdown level1 summary"><p>Initialises new instance of <a class="xref" href="ASE_Assignment.Circle.html">Circle</a> with no parameters.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Circle()</code></pre>
-  </div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/ASE-Classroom/ase-boose-assignment-JDennis21/new/main/apiSpec/new?filename=ASE_Assignment_Circle__ctor_System_Int32_.md&amp;value=---%0Auid%3A%20ASE_Assignment.Circle.%23ctor(System.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/ASE-Classroom/ase-boose-assignment-JDennis21/blob/main/ASE_Assignment/Circle.cs/#L23">View Source</a>
-  </span>
-  <a id="ASE_Assignment_Circle__ctor_" data-uid="ASE_Assignment.Circle.#ctor*"></a>
-  <h4 id="ASE_Assignment_Circle__ctor_System_Int32_" data-uid="ASE_Assignment.Circle.#ctor(System.Int32)">Circle(int)</h4>
-  <div class="markdown level1 summary"><p>Initialises new instance of <a class="xref" href="ASE_Assignment.Circle.html">Circle</a> with a specified canvas and radius.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Circle(int radius)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
-        <td><span class="parametername">radius</span></td>
-        <td><p>The radius of the circle that will be drawn.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="methods">Methods
 </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/ASE-Classroom/ase-boose-assignment-JDennis21/new/main/apiSpec/new?filename=ASE_Assignment_Circle_CheckParameters_System_String___.md&amp;value=---%0Auid%3A%20ASE_Assignment.Circle.CheckParameters(System.String%5B%5D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+    <a href="https://github.com/ASE-Classroom/ase-boose-assignment-JDennis21/new/main/apiSpec/new?filename=ASE_Assignment_AppPeek_Compile.md&amp;value=---%0Auid%3A%20ASE_Assignment.AppPeek.Compile%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/ASE-Classroom/ase-boose-assignment-JDennis21/blob/main/ASE_Assignment/Circle.cs/#L43">View Source</a>
+    <a href="https://github.com/ASE-Classroom/ase-boose-assignment-JDennis21/blob/main/ASE_Assignment/AppPeek.cs/#L14">View Source</a>
   </span>
-  <a id="ASE_Assignment_Circle_CheckParameters_" data-uid="ASE_Assignment.Circle.CheckParameters*"></a>
-  <h4 id="ASE_Assignment_Circle_CheckParameters_System_String___" data-uid="ASE_Assignment.Circle.CheckParameters(System.String[])">CheckParameters(string[])</h4>
-  <div class="markdown level1 summary"><p>Checks if Circle command has been called with the correct amount of parameters.</p>
+  <a id="ASE_Assignment_AppPeek_Compile_" data-uid="ASE_Assignment.AppPeek.Compile*"></a>
+  <h4 id="ASE_Assignment_AppPeek_Compile" data-uid="ASE_Assignment.AppPeek.Compile">Compile()</h4>
+  <div class="markdown level1 summary"><p>Compiles the peek command by processing the provided parameters.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override void CheckParameters(string[] parameterList)</code></pre>
+    <pre><code class="lang-csharp hljs">public override void Compile()</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>[]</td>
-        <td><span class="parametername">parameterList</span></td>
-        <td><p>String array to be checked to ensure the correct number of parameters has been passed.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
   <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">CommandOneParameter.CheckParameters(string[])</a></div>
+  <div><a class="xref" href="ASE_Assignment.AppArray.html#ASE_Assignment_AppArray_Compile">AppArray.Compile()</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ASE-Classroom/ase-boose-assignment-JDennis21/new/main/apiSpec/new?filename=ASE_Assignment_AppPeek_Execute.md&amp;value=---%0Auid%3A%20ASE_Assignment.AppPeek.Execute%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ASE-Classroom/ase-boose-assignment-JDennis21/blob/main/ASE_Assignment/AppPeek.cs/#L23">View Source</a>
+  </span>
+  <a id="ASE_Assignment_AppPeek_Execute_" data-uid="ASE_Assignment.AppPeek.Execute*"></a>
+  <h4 id="ASE_Assignment_AppPeek_Execute" data-uid="ASE_Assignment.AppPeek.Execute">Execute()</h4>
+  <div class="markdown level1 summary"><p>Executes the array command by retrieving the variable value based on the provided parameters.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Execute()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="ASE_Assignment.AppArray.html#ASE_Assignment_AppArray_Execute">AppArray.Execute()</a></div>
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-condensed">
     <thead>
@@ -281,29 +260,11 @@
     <tbody>
       <tr>
         <td><span class="xref">CommandException</span></td>
-        <td><p>Thrown if the number of parameters is not 1.</p>
+        <td><p>Thrown if an unknown variable type is encountered.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/ASE-Classroom/ase-boose-assignment-JDennis21/new/main/apiSpec/new?filename=ASE_Assignment_Circle_Execute.md&amp;value=---%0Auid%3A%20ASE_Assignment.Circle.Execute%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/ASE-Classroom/ase-boose-assignment-JDennis21/blob/main/ASE_Assignment/Circle.cs/#L31">View Source</a>
-  </span>
-  <a id="ASE_Assignment_Circle_Execute_" data-uid="ASE_Assignment.Circle.Execute*"></a>
-  <h4 id="ASE_Assignment_Circle_Execute" data-uid="ASE_Assignment.Circle.Execute">Execute()</h4>
-  <div class="markdown level1 summary"><p>Calls <span class="xref">BOOSE.Command.Execute()</span>, then draws a circle with specified radius.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override void Execute()</code></pre>
-  </div>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">BOOSE.Command.Execute()</span></div>
   <h3 id="implements">Implements</h3>
   <div>
       <span class="xref">BOOSE.ICommand</span>
@@ -317,10 +278,10 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/ASE-Classroom/ase-boose-assignment-JDennis21/new/main/apiSpec/new?filename=ASE_Assignment_Circle.md&amp;value=---%0Auid%3A%20ASE_Assignment.Circle%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Edit this page</a>
+                    <a href="https://github.com/ASE-Classroom/ase-boose-assignment-JDennis21/new/main/apiSpec/new?filename=ASE_Assignment_AppPeek.md&amp;value=---%0Auid%3A%20ASE_Assignment.AppPeek%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Edit this page</a>
                   </li>
                   <li>
-                    <a href="https://github.com/ASE-Classroom/ase-boose-assignment-JDennis21/blob/main/ASE_Assignment/Circle.cs/#L8" class="contribution-link">View Source</a>
+                    <a href="https://github.com/ASE-Classroom/ase-boose-assignment-JDennis21/blob/main/ASE_Assignment/AppPeek.cs/#L9" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

@@ -87,8 +87,7 @@
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-    <div class="level1"><span class="xref">Canvas</span></div>
-    <div class="level2"><span class="xref">AppCanvas</span></div>
+    <div class="level1"><span class="xref">AppCanvas</span></div>
   </div>
   <div class="implements">
     <h5>Implements</h5>
@@ -96,24 +95,6 @@
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
-    <div>
-      <span class="xref">Canvas.background_colour</span>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Canvas.Tri(int, int)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Canvas.Rectangle(int, int, bool)</a>
-    </div>
-    <div>
-      <span class="xref">Canvas.Reset()</span>
-    </div>
-    <div>
-      <span class="xref">Canvas.Xpos</span>
-    </div>
-    <div>
-      <span class="xref">Canvas.Ypos</span>
-    </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
     </div>
@@ -140,7 +121,7 @@
   <h6><strong>Assembly</strong>: ASE_Assignment.dll</h6>
   <h5 id="ASE_Assignment_AppCanvas_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class AppCanvas : Canvas, ICanvas</code></pre>
+    <pre><code class="lang-csharp hljs">public class AppCanvas : ICanvas</code></pre>
   </div>
   <h3 id="constructors">Constructors
 </h3>
@@ -149,7 +130,7 @@
     <a href="https://github.com/ASE-Classroom/ase-boose-assignment-JDennis21/new/main/apiSpec/new?filename=ASE_Assignment_AppCanvas__ctor_System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20ASE_Assignment.AppCanvas.%23ctor(System.Int32%2CSystem.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/ASE-Classroom/ase-boose-assignment-JDennis21/blob/main/ASE_Assignment/AppCanvas.cs/#L31">View Source</a>
+    <a href="https://github.com/ASE-Classroom/ase-boose-assignment-JDennis21/blob/main/ASE_Assignment/AppCanvas.cs/#L43">View Source</a>
   </span>
   <a id="ASE_Assignment_AppCanvas__ctor_" data-uid="ASE_Assignment.AppCanvas.#ctor*"></a>
   <h4 id="ASE_Assignment_AppCanvas__ctor_System_Int32_System_Int32_" data-uid="ASE_Assignment.AppCanvas.#ctor(System.Int32,System.Int32)">AppCanvas(int, int)</h4>
@@ -194,7 +175,7 @@
     <a href="https://github.com/ASE-Classroom/ase-boose-assignment-JDennis21/new/main/apiSpec/new?filename=ASE_Assignment_AppCanvas_PenColour.md&amp;value=---%0Auid%3A%20ASE_Assignment.AppCanvas.PenColour%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/ASE-Classroom/ase-boose-assignment-JDennis21/blob/main/ASE_Assignment/AppCanvas.cs/#L19">View Source</a>
+    <a href="https://github.com/ASE-Classroom/ase-boose-assignment-JDennis21/blob/main/ASE_Assignment/AppCanvas.cs/#L21">View Source</a>
   </span>
   <a id="ASE_Assignment_AppCanvas_PenColour_" data-uid="ASE_Assignment.AppCanvas.PenColour*"></a>
   <h4 id="ASE_Assignment_AppCanvas_PenColour" data-uid="ASE_Assignment.AppCanvas.PenColour">PenColour</h4>
@@ -203,7 +184,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override object PenColour { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public object PenColour { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-condensed">
@@ -220,8 +201,68 @@
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">BOOSE.Canvas.PenColour</span></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ASE-Classroom/ase-boose-assignment-JDennis21/new/main/apiSpec/new?filename=ASE_Assignment_AppCanvas_Xpos.md&amp;value=---%0Auid%3A%20ASE_Assignment.AppCanvas.Xpos%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ASE-Classroom/ase-boose-assignment-JDennis21/blob/main/ASE_Assignment/AppCanvas.cs/#L26">View Source</a>
+  </span>
+  <a id="ASE_Assignment_AppCanvas_Xpos_" data-uid="ASE_Assignment.AppCanvas.Xpos*"></a>
+  <h4 id="ASE_Assignment_AppCanvas_Xpos" data-uid="ASE_Assignment.AppCanvas.Xpos">Xpos</h4>
+  <div class="markdown level1 summary"><p>The current X position of the pen.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Xpos { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ASE-Classroom/ase-boose-assignment-JDennis21/new/main/apiSpec/new?filename=ASE_Assignment_AppCanvas_Ypos.md&amp;value=---%0Auid%3A%20ASE_Assignment.AppCanvas.Ypos%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ASE-Classroom/ase-boose-assignment-JDennis21/blob/main/ASE_Assignment/AppCanvas.cs/#L31">View Source</a>
+  </span>
+  <a id="ASE_Assignment_AppCanvas_Ypos_" data-uid="ASE_Assignment.AppCanvas.Ypos*"></a>
+  <h4 id="ASE_Assignment_AppCanvas_Ypos" data-uid="ASE_Assignment.AppCanvas.Ypos">Ypos</h4>
+  <div class="markdown level1 summary"><p>The current Y position of the pen.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Ypos { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="methods">Methods
 </h3>
   <span class="small pull-right mobile-hide">
@@ -229,7 +270,7 @@
     <a href="https://github.com/ASE-Classroom/ase-boose-assignment-JDennis21/new/main/apiSpec/new?filename=ASE_Assignment_AppCanvas_CheckWithinBounds_System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20ASE_Assignment.AppCanvas.CheckWithinBounds(System.Int32%2CSystem.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/ASE-Classroom/ase-boose-assignment-JDennis21/blob/main/ASE_Assignment/AppCanvas.cs/#L106">View Source</a>
+    <a href="https://github.com/ASE-Classroom/ase-boose-assignment-JDennis21/blob/main/ASE_Assignment/AppCanvas.cs/#L127">View Source</a>
   </span>
   <a id="ASE_Assignment_AppCanvas_CheckWithinBounds_" data-uid="ASE_Assignment.AppCanvas.CheckWithinBounds*"></a>
   <h4 id="ASE_Assignment_AppCanvas_CheckWithinBounds_System_Int32_System_Int32_" data-uid="ASE_Assignment.AppCanvas.CheckWithinBounds(System.Int32,System.Int32)">CheckWithinBounds(int, int)</h4>
@@ -285,7 +326,7 @@
     <a href="https://github.com/ASE-Classroom/ase-boose-assignment-JDennis21/new/main/apiSpec/new?filename=ASE_Assignment_AppCanvas_Circle_System_Int32_System_Boolean_.md&amp;value=---%0Auid%3A%20ASE_Assignment.AppCanvas.Circle(System.Int32%2CSystem.Boolean)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/ASE-Classroom/ase-boose-assignment-JDennis21/blob/main/ASE_Assignment/AppCanvas.cs/#L165">View Source</a>
+    <a href="https://github.com/ASE-Classroom/ase-boose-assignment-JDennis21/blob/main/ASE_Assignment/AppCanvas.cs/#L187">View Source</a>
   </span>
   <a id="ASE_Assignment_AppCanvas_Circle_" data-uid="ASE_Assignment.AppCanvas.Circle*"></a>
   <h4 id="ASE_Assignment_AppCanvas_Circle_System_Int32_System_Boolean_" data-uid="ASE_Assignment.AppCanvas.Circle(System.Int32,System.Boolean)">Circle(int, bool)</h4>
@@ -294,7 +335,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override void Circle(int radius, bool filled)</code></pre>
+    <pre><code class="lang-csharp hljs">public void Circle(int radius, bool filled)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -320,8 +361,6 @@
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Canvas.Circle(int, bool)</a></div>
   <h5 id="ASE_Assignment_AppCanvas_Circle_System_Int32_System_Boolean__examples">Examples</h5>
   <pre><code class="lang-csharp">appCanvas.Circle(100, true);</code></pre>
 
@@ -346,7 +385,7 @@
     <a href="https://github.com/ASE-Classroom/ase-boose-assignment-JDennis21/new/main/apiSpec/new?filename=ASE_Assignment_AppCanvas_Clear.md&amp;value=---%0Auid%3A%20ASE_Assignment.AppCanvas.Clear%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/ASE-Classroom/ase-boose-assignment-JDennis21/blob/main/ASE_Assignment/AppCanvas.cs/#L65">View Source</a>
+    <a href="https://github.com/ASE-Classroom/ase-boose-assignment-JDennis21/blob/main/ASE_Assignment/AppCanvas.cs/#L77">View Source</a>
   </span>
   <a id="ASE_Assignment_AppCanvas_Clear_" data-uid="ASE_Assignment.AppCanvas.Clear*"></a>
   <h4 id="ASE_Assignment_AppCanvas_Clear" data-uid="ASE_Assignment.AppCanvas.Clear">Clear()</h4>
@@ -355,10 +394,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override void Clear()</code></pre>
+    <pre><code class="lang-csharp hljs">public void Clear()</code></pre>
   </div>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">BOOSE.Canvas.Clear()</span></div>
   <h5 id="ASE_Assignment_AppCanvas_Clear_examples">Examples</h5>
   <pre><code class="lang-csharp">appCanvas.Clear();</code></pre>
 
@@ -367,7 +404,7 @@
     <a href="https://github.com/ASE-Classroom/ase-boose-assignment-JDennis21/new/main/apiSpec/new?filename=ASE_Assignment_AppCanvas_DrawTo_System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20ASE_Assignment.AppCanvas.DrawTo(System.Int32%2CSystem.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/ASE-Classroom/ase-boose-assignment-JDennis21/blob/main/ASE_Assignment/AppCanvas.cs/#L139">View Source</a>
+    <a href="https://github.com/ASE-Classroom/ase-boose-assignment-JDennis21/blob/main/ASE_Assignment/AppCanvas.cs/#L161">View Source</a>
   </span>
   <a id="ASE_Assignment_AppCanvas_DrawTo_" data-uid="ASE_Assignment.AppCanvas.DrawTo*"></a>
   <h4 id="ASE_Assignment_AppCanvas_DrawTo_System_Int32_System_Int32_" data-uid="ASE_Assignment.AppCanvas.DrawTo(System.Int32,System.Int32)">DrawTo(int, int)</h4>
@@ -376,7 +413,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override void DrawTo(int x, int y)</code></pre>
+    <pre><code class="lang-csharp hljs">public void DrawTo(int x, int y)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -402,8 +439,6 @@
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Canvas.DrawTo(int, int)</a></div>
   <h5 id="ASE_Assignment_AppCanvas_DrawTo_System_Int32_System_Int32__examples">Examples</h5>
   <pre><code class="lang-csharp">appCanvas.DrawTo(100, 100);</code></pre>
 
@@ -428,7 +463,7 @@
     <a href="https://github.com/ASE-Classroom/ase-boose-assignment-JDennis21/new/main/apiSpec/new?filename=ASE_Assignment_AppCanvas_MoveTo_System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20ASE_Assignment.AppCanvas.MoveTo(System.Int32%2CSystem.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/ASE-Classroom/ase-boose-assignment-JDennis21/blob/main/ASE_Assignment/AppCanvas.cs/#L122">View Source</a>
+    <a href="https://github.com/ASE-Classroom/ase-boose-assignment-JDennis21/blob/main/ASE_Assignment/AppCanvas.cs/#L143">View Source</a>
   </span>
   <a id="ASE_Assignment_AppCanvas_MoveTo_" data-uid="ASE_Assignment.AppCanvas.MoveTo*"></a>
   <h4 id="ASE_Assignment_AppCanvas_MoveTo_System_Int32_System_Int32_" data-uid="ASE_Assignment.AppCanvas.MoveTo(System.Int32,System.Int32)">MoveTo(int, int)</h4>
@@ -437,7 +472,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override void MoveTo(int x, int y)</code></pre>
+    <pre><code class="lang-csharp hljs">public void MoveTo(int x, int y)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -463,8 +498,6 @@
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Canvas.MoveTo(int, int)</a></div>
   <h5 id="ASE_Assignment_AppCanvas_MoveTo_System_Int32_System_Int32__examples">Examples</h5>
   <pre><code class="lang-csharp">appCanvas.MoveTo(100, 100);</code></pre>
 
@@ -473,7 +506,7 @@
     <a href="https://github.com/ASE-Classroom/ase-boose-assignment-JDennis21/new/main/apiSpec/new?filename=ASE_Assignment_AppCanvas_Rect_System_Int32_System_Int32_System_Boolean_.md&amp;value=---%0Auid%3A%20ASE_Assignment.AppCanvas.Rect(System.Int32%2CSystem.Int32%2CSystem.Boolean)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/ASE-Classroom/ase-boose-assignment-JDennis21/blob/main/ASE_Assignment/AppCanvas.cs/#L198">View Source</a>
+    <a href="https://github.com/ASE-Classroom/ase-boose-assignment-JDennis21/blob/main/ASE_Assignment/AppCanvas.cs/#L220">View Source</a>
   </span>
   <a id="ASE_Assignment_AppCanvas_Rect_" data-uid="ASE_Assignment.AppCanvas.Rect*"></a>
   <h4 id="ASE_Assignment_AppCanvas_Rect_System_Int32_System_Int32_System_Boolean_" data-uid="ASE_Assignment.AppCanvas.Rect(System.Int32,System.Int32,System.Boolean)">Rect(int, int, bool)</h4>
@@ -482,7 +515,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override void Rect(int width, int height, bool filled)</code></pre>
+    <pre><code class="lang-csharp hljs">public void Rect(int width, int height, bool filled)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -514,8 +547,6 @@
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Canvas.Rect(int, int, bool)</a></div>
   <h5 id="ASE_Assignment_AppCanvas_Rect_System_Int32_System_Int32_System_Boolean__examples">Examples</h5>
   <pre><code class="lang-csharp">appCanvas.Rect(width, height, true);</code></pre>
 
@@ -537,10 +568,26 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/ASE-Classroom/ase-boose-assignment-JDennis21/new/main/apiSpec/new?filename=ASE_Assignment_AppCanvas_Reset.md&amp;value=---%0Auid%3A%20ASE_Assignment.AppCanvas.Reset%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ASE-Classroom/ase-boose-assignment-JDennis21/blob/main/ASE_Assignment/AppCanvas.cs/#L85">View Source</a>
+  </span>
+  <a id="ASE_Assignment_AppCanvas_Reset_" data-uid="ASE_Assignment.AppCanvas.Reset*"></a>
+  <h4 id="ASE_Assignment_AppCanvas_Reset" data-uid="ASE_Assignment.AppCanvas.Reset">Reset()</h4>
+  <div class="markdown level1 summary"><p>Resets the pen position to (x,y) coordinates (0,0).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Reset()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/ASE-Classroom/ase-boose-assignment-JDennis21/new/main/apiSpec/new?filename=ASE_Assignment_AppCanvas_Set_System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20ASE_Assignment.AppCanvas.Set(System.Int32%2CSystem.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/ASE-Classroom/ase-boose-assignment-JDennis21/blob/main/ASE_Assignment/AppCanvas.cs/#L46">View Source</a>
+    <a href="https://github.com/ASE-Classroom/ase-boose-assignment-JDennis21/blob/main/ASE_Assignment/AppCanvas.cs/#L58">View Source</a>
   </span>
   <a id="ASE_Assignment_AppCanvas_Set_" data-uid="ASE_Assignment.AppCanvas.Set*"></a>
   <h4 id="ASE_Assignment_AppCanvas_Set_System_Int32_System_Int32_" data-uid="ASE_Assignment.AppCanvas.Set(System.Int32,System.Int32)">Set(int, int)</h4>
@@ -549,7 +596,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override void Set(int width, int height)</code></pre>
+    <pre><code class="lang-csharp hljs">public void Set(int width, int height)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -575,8 +622,6 @@
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Canvas.Set(int, int)</a></div>
   <h5 id="ASE_Assignment_AppCanvas_Set_System_Int32_System_Int32__examples">Examples</h5>
   <pre><code class="lang-csharp">appCanvas.Set(width, height);</code></pre>
 
@@ -585,7 +630,7 @@
     <a href="https://github.com/ASE-Classroom/ase-boose-assignment-JDennis21/new/main/apiSpec/new?filename=ASE_Assignment_AppCanvas_SetColour_System_Int32_System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20ASE_Assignment.AppCanvas.SetColour(System.Int32%2CSystem.Int32%2CSystem.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/ASE-Classroom/ase-boose-assignment-JDennis21/blob/main/ASE_Assignment/AppCanvas.cs/#L81">View Source</a>
+    <a href="https://github.com/ASE-Classroom/ase-boose-assignment-JDennis21/blob/main/ASE_Assignment/AppCanvas.cs/#L102">View Source</a>
   </span>
   <a id="ASE_Assignment_AppCanvas_SetColour_" data-uid="ASE_Assignment.AppCanvas.SetColour*"></a>
   <h4 id="ASE_Assignment_AppCanvas_SetColour_System_Int32_System_Int32_System_Int32_" data-uid="ASE_Assignment.AppCanvas.SetColour(System.Int32,System.Int32,System.Int32)">SetColour(int, int, int)</h4>
@@ -594,7 +639,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override void SetColour(int red, int green, int blue)</code></pre>
+    <pre><code class="lang-csharp hljs">public void SetColour(int red, int green, int blue)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -626,17 +671,74 @@
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Canvas.SetColour(int, int, int)</a></div>
   <h5 id="ASE_Assignment_AppCanvas_SetColour_System_Int32_System_Int32_System_Int32__examples">Examples</h5>
   <pre><code class="lang-csharp">appCanvas.SetColour(255, 255, 255);</code></pre>
 
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/ASE-Classroom/ase-boose-assignment-JDennis21/new/main/apiSpec/new?filename=ASE_Assignment_AppCanvas_Tri_System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20ASE_Assignment.AppCanvas.Tri(System.Int32%2CSystem.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ASE-Classroom/ase-boose-assignment-JDennis21/blob/main/ASE_Assignment/AppCanvas.cs/#L250">View Source</a>
+  </span>
+  <a id="ASE_Assignment_AppCanvas_Tri_" data-uid="ASE_Assignment.AppCanvas.Tri*"></a>
+  <h4 id="ASE_Assignment_AppCanvas_Tri_System_Int32_System_Int32_" data-uid="ASE_Assignment.AppCanvas.Tri(System.Int32,System.Int32)">Tri(int, int)</h4>
+  <div class="markdown level1 summary"><p>Draws a triangle using the specified width and height.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Tri(int width, int height)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">width</span></td>
+        <td><p>Width used to draw triangle</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">height</span></td>
+        <td><p>Height used to draw triangle</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="ASE_Assignment_AppCanvas_Tri_System_Int32_System_Int32__examples">Examples</h5>
+  <pre><code class="lang-csharp">appCanvas.Tri(width, height);</code></pre>
+
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">CommandException</span></td>
+        <td><p>Thrown if either width or height are less than or equal to 0</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/ASE-Classroom/ase-boose-assignment-JDennis21/new/main/apiSpec/new?filename=ASE_Assignment_AppCanvas_WriteText_System_String_.md&amp;value=---%0Auid%3A%20ASE_Assignment.AppCanvas.WriteText(System.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/ASE-Classroom/ase-boose-assignment-JDennis21/blob/main/ASE_Assignment/AppCanvas.cs/#L227">View Source</a>
+    <a href="https://github.com/ASE-Classroom/ase-boose-assignment-JDennis21/blob/main/ASE_Assignment/AppCanvas.cs/#L276">View Source</a>
   </span>
   <a id="ASE_Assignment_AppCanvas_WriteText_" data-uid="ASE_Assignment.AppCanvas.WriteText*"></a>
   <h4 id="ASE_Assignment_AppCanvas_WriteText_System_String_" data-uid="ASE_Assignment.AppCanvas.WriteText(System.String)">WriteText(string)</h4>
@@ -645,7 +747,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override void WriteText(string text)</code></pre>
+    <pre><code class="lang-csharp hljs">public void WriteText(string text)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -665,8 +767,6 @@
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Canvas.WriteText(string)</a></div>
   <h5 id="ASE_Assignment_AppCanvas_WriteText_System_String__examples">Examples</h5>
   <pre><code class="lang-csharp">appCanvas.WriteText("hello");</code></pre>
 
@@ -691,7 +791,7 @@
     <a href="https://github.com/ASE-Classroom/ase-boose-assignment-JDennis21/new/main/apiSpec/new?filename=ASE_Assignment_AppCanvas_getBitmap.md&amp;value=---%0Auid%3A%20ASE_Assignment.AppCanvas.getBitmap%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/ASE-Classroom/ase-boose-assignment-JDennis21/blob/main/ASE_Assignment/AppCanvas.cs/#L95">View Source</a>
+    <a href="https://github.com/ASE-Classroom/ase-boose-assignment-JDennis21/blob/main/ASE_Assignment/AppCanvas.cs/#L116">View Source</a>
   </span>
   <a id="ASE_Assignment_AppCanvas_getBitmap_" data-uid="ASE_Assignment.AppCanvas.getBitmap*"></a>
   <h4 id="ASE_Assignment_AppCanvas_getBitmap" data-uid="ASE_Assignment.AppCanvas.getBitmap">getBitmap()</h4>
@@ -700,7 +800,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override object getBitmap()</code></pre>
+    <pre><code class="lang-csharp hljs">public object getBitmap()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-condensed">
@@ -718,8 +818,6 @@
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">BOOSE.Canvas.getBitmap()</span></div>
   <h5 id="ASE_Assignment_AppCanvas_getBitmap_examples">Examples</h5>
   <pre><code class="lang-csharp">Bitmap updatedBitmap = (Bitmap)appCanvas.getBitmap();</code></pre>
 
@@ -739,7 +837,7 @@
                     <a href="https://github.com/ASE-Classroom/ase-boose-assignment-JDennis21/new/main/apiSpec/new?filename=ASE_Assignment_AppCanvas.md&amp;value=---%0Auid%3A%20ASE_Assignment.AppCanvas%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Edit this page</a>
                   </li>
                   <li>
-                    <a href="https://github.com/ASE-Classroom/ase-boose-assignment-JDennis21/blob/main/ASE_Assignment/AppCanvas.cs/#L8" class="contribution-link">View Source</a>
+                    <a href="https://github.com/ASE-Classroom/ase-boose-assignment-JDennis21/blob/main/ASE_Assignment/AppCanvas.cs/#L9" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

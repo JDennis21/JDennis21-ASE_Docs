@@ -7,6 +7,116 @@ references:
   commentId: N:ASE_Assignment
   fullName: ASE_Assignment
   nameWithType: ASE_Assignment
+- uid: ASE_Assignment.AppArray
+  name: AppArray
+  href: api/ASE_Assignment.AppArray.html
+  commentId: T:ASE_Assignment.AppArray
+  fullName: ASE_Assignment.AppArray
+  nameWithType: AppArray
+- uid: ASE_Assignment.AppArray.CheckParameters(System.String[])
+  name: CheckParameters(string[])
+  href: api/ASE_Assignment.AppArray.html#ASE_Assignment_AppArray_CheckParameters_System_String___
+  commentId: M:ASE_Assignment.AppArray.CheckParameters(System.String[])
+  name.vb: CheckParameters(String())
+  fullName: ASE_Assignment.AppArray.CheckParameters(string[])
+  fullName.vb: ASE_Assignment.AppArray.CheckParameters(String())
+  nameWithType: AppArray.CheckParameters(string[])
+  nameWithType.vb: AppArray.CheckParameters(String())
+- uid: ASE_Assignment.AppArray.CheckParameters*
+  name: CheckParameters
+  href: api/ASE_Assignment.AppArray.html#ASE_Assignment_AppArray_CheckParameters_
+  commentId: Overload:ASE_Assignment.AppArray.CheckParameters
+  isSpec: "True"
+  fullName: ASE_Assignment.AppArray.CheckParameters
+  nameWithType: AppArray.CheckParameters
+- uid: ASE_Assignment.AppArray.Compile
+  name: Compile()
+  href: api/ASE_Assignment.AppArray.html#ASE_Assignment_AppArray_Compile
+  commentId: M:ASE_Assignment.AppArray.Compile
+  fullName: ASE_Assignment.AppArray.Compile()
+  nameWithType: AppArray.Compile()
+- uid: ASE_Assignment.AppArray.Compile*
+  name: Compile
+  href: api/ASE_Assignment.AppArray.html#ASE_Assignment_AppArray_Compile_
+  commentId: Overload:ASE_Assignment.AppArray.Compile
+  isSpec: "True"
+  fullName: ASE_Assignment.AppArray.Compile
+  nameWithType: AppArray.Compile
+- uid: ASE_Assignment.AppArray.Execute
+  name: Execute()
+  href: api/ASE_Assignment.AppArray.html#ASE_Assignment_AppArray_Execute
+  commentId: M:ASE_Assignment.AppArray.Execute
+  fullName: ASE_Assignment.AppArray.Execute()
+  nameWithType: AppArray.Execute()
+- uid: ASE_Assignment.AppArray.Execute*
+  name: Execute
+  href: api/ASE_Assignment.AppArray.html#ASE_Assignment_AppArray_Execute_
+  commentId: Overload:ASE_Assignment.AppArray.Execute
+  isSpec: "True"
+  fullName: ASE_Assignment.AppArray.Execute
+  nameWithType: AppArray.Execute
+- uid: ASE_Assignment.AppArray.ProcessArrayParametersCompile(System.Boolean)
+  name: ProcessArrayParametersCompile(bool)
+  href: api/ASE_Assignment.AppArray.html#ASE_Assignment_AppArray_ProcessArrayParametersCompile_System_Boolean_
+  commentId: M:ASE_Assignment.AppArray.ProcessArrayParametersCompile(System.Boolean)
+  name.vb: ProcessArrayParametersCompile(Boolean)
+  fullName: ASE_Assignment.AppArray.ProcessArrayParametersCompile(bool)
+  fullName.vb: ASE_Assignment.AppArray.ProcessArrayParametersCompile(Boolean)
+  nameWithType: AppArray.ProcessArrayParametersCompile(bool)
+  nameWithType.vb: AppArray.ProcessArrayParametersCompile(Boolean)
+- uid: ASE_Assignment.AppArray.ProcessArrayParametersCompile*
+  name: ProcessArrayParametersCompile
+  href: api/ASE_Assignment.AppArray.html#ASE_Assignment_AppArray_ProcessArrayParametersCompile_
+  commentId: Overload:ASE_Assignment.AppArray.ProcessArrayParametersCompile
+  isSpec: "True"
+  fullName: ASE_Assignment.AppArray.ProcessArrayParametersCompile
+  nameWithType: AppArray.ProcessArrayParametersCompile
+- uid: ASE_Assignment.AppArray.ProcessArrayParametersExecute(System.Boolean)
+  name: ProcessArrayParametersExecute(bool)
+  href: api/ASE_Assignment.AppArray.html#ASE_Assignment_AppArray_ProcessArrayParametersExecute_System_Boolean_
+  commentId: M:ASE_Assignment.AppArray.ProcessArrayParametersExecute(System.Boolean)
+  name.vb: ProcessArrayParametersExecute(Boolean)
+  fullName: ASE_Assignment.AppArray.ProcessArrayParametersExecute(bool)
+  fullName.vb: ASE_Assignment.AppArray.ProcessArrayParametersExecute(Boolean)
+  nameWithType: AppArray.ProcessArrayParametersExecute(bool)
+  nameWithType.vb: AppArray.ProcessArrayParametersExecute(Boolean)
+- uid: ASE_Assignment.AppArray.ProcessArrayParametersExecute*
+  name: ProcessArrayParametersExecute
+  href: api/ASE_Assignment.AppArray.html#ASE_Assignment_AppArray_ProcessArrayParametersExecute_
+  commentId: Overload:ASE_Assignment.AppArray.ProcessArrayParametersExecute
+  isSpec: "True"
+  fullName: ASE_Assignment.AppArray.ProcessArrayParametersExecute
+  nameWithType: AppArray.ProcessArrayParametersExecute
+- uid: ASE_Assignment.AppArray.peekValue
+  name: peekValue
+  href: api/ASE_Assignment.AppArray.html#ASE_Assignment_AppArray_peekValue
+  commentId: F:ASE_Assignment.AppArray.peekValue
+  fullName: ASE_Assignment.AppArray.peekValue
+  nameWithType: AppArray.peekValue
+- uid: ASE_Assignment.AppArray.pokeValue
+  name: pokeValue
+  href: api/ASE_Assignment.AppArray.html#ASE_Assignment_AppArray_pokeValue
+  commentId: F:ASE_Assignment.AppArray.pokeValue
+  fullName: ASE_Assignment.AppArray.pokeValue
+  nameWithType: AppArray.pokeValue
+- uid: ASE_Assignment.AppArray.valueInt
+  name: valueInt
+  href: api/ASE_Assignment.AppArray.html#ASE_Assignment_AppArray_valueInt
+  commentId: F:ASE_Assignment.AppArray.valueInt
+  fullName: ASE_Assignment.AppArray.valueInt
+  nameWithType: AppArray.valueInt
+- uid: ASE_Assignment.AppArray.valueReal
+  name: valueReal
+  href: api/ASE_Assignment.AppArray.html#ASE_Assignment_AppArray_valueReal
+  commentId: F:ASE_Assignment.AppArray.valueReal
+  fullName: ASE_Assignment.AppArray.valueReal
+  nameWithType: AppArray.valueReal
+- uid: ASE_Assignment.AppArray.variableType
+  name: variableType
+  href: api/ASE_Assignment.AppArray.html#ASE_Assignment_AppArray_variableType
+  commentId: F:ASE_Assignment.AppArray.variableType
+  fullName: ASE_Assignment.AppArray.variableType
+  nameWithType: AppArray.variableType
 - uid: ASE_Assignment.AppCanvas
   name: AppCanvas
   href: api/ASE_Assignment.AppCanvas.html
@@ -138,6 +248,19 @@ references:
   isSpec: "True"
   fullName: ASE_Assignment.AppCanvas.Rect
   nameWithType: AppCanvas.Rect
+- uid: ASE_Assignment.AppCanvas.Reset
+  name: Reset()
+  href: api/ASE_Assignment.AppCanvas.html#ASE_Assignment_AppCanvas_Reset
+  commentId: M:ASE_Assignment.AppCanvas.Reset
+  fullName: ASE_Assignment.AppCanvas.Reset()
+  nameWithType: AppCanvas.Reset()
+- uid: ASE_Assignment.AppCanvas.Reset*
+  name: Reset
+  href: api/ASE_Assignment.AppCanvas.html#ASE_Assignment_AppCanvas_Reset_
+  commentId: Overload:ASE_Assignment.AppCanvas.Reset
+  isSpec: "True"
+  fullName: ASE_Assignment.AppCanvas.Reset
+  nameWithType: AppCanvas.Reset
 - uid: ASE_Assignment.AppCanvas.Set(System.Int32,System.Int32)
   name: Set(int, int)
   href: api/ASE_Assignment.AppCanvas.html#ASE_Assignment_AppCanvas_Set_System_Int32_System_Int32_
@@ -170,6 +293,22 @@ references:
   isSpec: "True"
   fullName: ASE_Assignment.AppCanvas.SetColour
   nameWithType: AppCanvas.SetColour
+- uid: ASE_Assignment.AppCanvas.Tri(System.Int32,System.Int32)
+  name: Tri(int, int)
+  href: api/ASE_Assignment.AppCanvas.html#ASE_Assignment_AppCanvas_Tri_System_Int32_System_Int32_
+  commentId: M:ASE_Assignment.AppCanvas.Tri(System.Int32,System.Int32)
+  name.vb: Tri(Integer, Integer)
+  fullName: ASE_Assignment.AppCanvas.Tri(int, int)
+  fullName.vb: ASE_Assignment.AppCanvas.Tri(Integer, Integer)
+  nameWithType: AppCanvas.Tri(int, int)
+  nameWithType.vb: AppCanvas.Tri(Integer, Integer)
+- uid: ASE_Assignment.AppCanvas.Tri*
+  name: Tri
+  href: api/ASE_Assignment.AppCanvas.html#ASE_Assignment_AppCanvas_Tri_
+  commentId: Overload:ASE_Assignment.AppCanvas.Tri
+  isSpec: "True"
+  fullName: ASE_Assignment.AppCanvas.Tri
+  nameWithType: AppCanvas.Tri
 - uid: ASE_Assignment.AppCanvas.WriteText(System.String)
   name: WriteText(string)
   href: api/ASE_Assignment.AppCanvas.html#ASE_Assignment_AppCanvas_WriteText_System_String_
@@ -186,6 +325,32 @@ references:
   isSpec: "True"
   fullName: ASE_Assignment.AppCanvas.WriteText
   nameWithType: AppCanvas.WriteText
+- uid: ASE_Assignment.AppCanvas.Xpos
+  name: Xpos
+  href: api/ASE_Assignment.AppCanvas.html#ASE_Assignment_AppCanvas_Xpos
+  commentId: P:ASE_Assignment.AppCanvas.Xpos
+  fullName: ASE_Assignment.AppCanvas.Xpos
+  nameWithType: AppCanvas.Xpos
+- uid: ASE_Assignment.AppCanvas.Xpos*
+  name: Xpos
+  href: api/ASE_Assignment.AppCanvas.html#ASE_Assignment_AppCanvas_Xpos_
+  commentId: Overload:ASE_Assignment.AppCanvas.Xpos
+  isSpec: "True"
+  fullName: ASE_Assignment.AppCanvas.Xpos
+  nameWithType: AppCanvas.Xpos
+- uid: ASE_Assignment.AppCanvas.Ypos
+  name: Ypos
+  href: api/ASE_Assignment.AppCanvas.html#ASE_Assignment_AppCanvas_Ypos
+  commentId: P:ASE_Assignment.AppCanvas.Ypos
+  fullName: ASE_Assignment.AppCanvas.Ypos
+  nameWithType: AppCanvas.Ypos
+- uid: ASE_Assignment.AppCanvas.Ypos*
+  name: Ypos
+  href: api/ASE_Assignment.AppCanvas.html#ASE_Assignment_AppCanvas_Ypos_
+  commentId: Overload:ASE_Assignment.AppCanvas.Ypos
+  isSpec: "True"
+  fullName: ASE_Assignment.AppCanvas.Ypos
+  nameWithType: AppCanvas.Ypos
 - uid: ASE_Assignment.AppCanvas.getBitmap
   name: getBitmap()
   href: api/ASE_Assignment.AppCanvas.html#ASE_Assignment_AppCanvas_getBitmap
@@ -221,6 +386,227 @@ references:
   isSpec: "True"
   fullName: ASE_Assignment.AppCommandFactory.MakeCommand
   nameWithType: AppCommandFactory.MakeCommand
+- uid: ASE_Assignment.AppCompoundCommand
+  name: AppCompoundCommand
+  href: api/ASE_Assignment.AppCompoundCommand.html
+  commentId: T:ASE_Assignment.AppCompoundCommand
+  fullName: ASE_Assignment.AppCompoundCommand
+  nameWithType: AppCompoundCommand
+- uid: ASE_Assignment.AppCompoundCommand.CorrespondingCommand
+  name: CorrespondingCommand
+  href: api/ASE_Assignment.AppCompoundCommand.html#ASE_Assignment_AppCompoundCommand_CorrespondingCommand
+  commentId: P:ASE_Assignment.AppCompoundCommand.CorrespondingCommand
+  fullName: ASE_Assignment.AppCompoundCommand.CorrespondingCommand
+  nameWithType: AppCompoundCommand.CorrespondingCommand
+- uid: ASE_Assignment.AppCompoundCommand.CorrespondingCommand*
+  name: CorrespondingCommand
+  href: api/ASE_Assignment.AppCompoundCommand.html#ASE_Assignment_AppCompoundCommand_CorrespondingCommand_
+  commentId: Overload:ASE_Assignment.AppCompoundCommand.CorrespondingCommand
+  isSpec: "True"
+  fullName: ASE_Assignment.AppCompoundCommand.CorrespondingCommand
+  nameWithType: AppCompoundCommand.CorrespondingCommand
+- uid: ASE_Assignment.AppElse
+  name: AppElse
+  href: api/ASE_Assignment.AppElse.html
+  commentId: T:ASE_Assignment.AppElse
+  fullName: ASE_Assignment.AppElse
+  nameWithType: AppElse
+- uid: ASE_Assignment.AppElse.#ctor
+  name: AppElse()
+  href: api/ASE_Assignment.AppElse.html#ASE_Assignment_AppElse__ctor
+  commentId: M:ASE_Assignment.AppElse.#ctor
+  name.vb: New()
+  fullName: ASE_Assignment.AppElse.AppElse()
+  fullName.vb: ASE_Assignment.AppElse.New()
+  nameWithType: AppElse.AppElse()
+  nameWithType.vb: AppElse.New()
+- uid: ASE_Assignment.AppElse.#ctor*
+  name: AppElse
+  href: api/ASE_Assignment.AppElse.html#ASE_Assignment_AppElse__ctor_
+  commentId: Overload:ASE_Assignment.AppElse.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: ASE_Assignment.AppElse.AppElse
+  fullName.vb: ASE_Assignment.AppElse.New
+  nameWithType: AppElse.AppElse
+  nameWithType.vb: AppElse.New
+- uid: ASE_Assignment.AppEnd
+  name: AppEnd
+  href: api/ASE_Assignment.AppEnd.html
+  commentId: T:ASE_Assignment.AppEnd
+  fullName: ASE_Assignment.AppEnd
+  nameWithType: AppEnd
+- uid: ASE_Assignment.AppEnd.Execute
+  name: Execute()
+  href: api/ASE_Assignment.AppEnd.html#ASE_Assignment_AppEnd_Execute
+  commentId: M:ASE_Assignment.AppEnd.Execute
+  fullName: ASE_Assignment.AppEnd.Execute()
+  nameWithType: AppEnd.Execute()
+- uid: ASE_Assignment.AppEnd.Execute*
+  name: Execute
+  href: api/ASE_Assignment.AppEnd.html#ASE_Assignment_AppEnd_Execute_
+  commentId: Overload:ASE_Assignment.AppEnd.Execute
+  isSpec: "True"
+  fullName: ASE_Assignment.AppEnd.Execute
+  nameWithType: AppEnd.Execute
+- uid: ASE_Assignment.AppFor
+  name: AppFor
+  href: api/ASE_Assignment.AppFor.html
+  commentId: T:ASE_Assignment.AppFor
+  fullName: ASE_Assignment.AppFor
+  nameWithType: AppFor
+- uid: ASE_Assignment.AppIf
+  name: AppIf
+  href: api/ASE_Assignment.AppIf.html
+  commentId: T:ASE_Assignment.AppIf
+  fullName: ASE_Assignment.AppIf
+  nameWithType: AppIf
+- uid: ASE_Assignment.AppInt
+  name: AppInt
+  href: api/ASE_Assignment.AppInt.html
+  commentId: T:ASE_Assignment.AppInt
+  fullName: ASE_Assignment.AppInt
+  nameWithType: AppInt
+- uid: ASE_Assignment.AppInt.Restrictions
+  name: Restrictions()
+  href: api/ASE_Assignment.AppInt.html#ASE_Assignment_AppInt_Restrictions
+  commentId: M:ASE_Assignment.AppInt.Restrictions
+  fullName: ASE_Assignment.AppInt.Restrictions()
+  nameWithType: AppInt.Restrictions()
+- uid: ASE_Assignment.AppInt.Restrictions*
+  name: Restrictions
+  href: api/ASE_Assignment.AppInt.html#ASE_Assignment_AppInt_Restrictions_
+  commentId: Overload:ASE_Assignment.AppInt.Restrictions
+  isSpec: "True"
+  fullName: ASE_Assignment.AppInt.Restrictions
+  nameWithType: AppInt.Restrictions
+- uid: ASE_Assignment.AppPeek
+  name: AppPeek
+  href: api/ASE_Assignment.AppPeek.html
+  commentId: T:ASE_Assignment.AppPeek
+  fullName: ASE_Assignment.AppPeek
+  nameWithType: AppPeek
+- uid: ASE_Assignment.AppPeek.Compile
+  name: Compile()
+  href: api/ASE_Assignment.AppPeek.html#ASE_Assignment_AppPeek_Compile
+  commentId: M:ASE_Assignment.AppPeek.Compile
+  fullName: ASE_Assignment.AppPeek.Compile()
+  nameWithType: AppPeek.Compile()
+- uid: ASE_Assignment.AppPeek.Compile*
+  name: Compile
+  href: api/ASE_Assignment.AppPeek.html#ASE_Assignment_AppPeek_Compile_
+  commentId: Overload:ASE_Assignment.AppPeek.Compile
+  isSpec: "True"
+  fullName: ASE_Assignment.AppPeek.Compile
+  nameWithType: AppPeek.Compile
+- uid: ASE_Assignment.AppPeek.Execute
+  name: Execute()
+  href: api/ASE_Assignment.AppPeek.html#ASE_Assignment_AppPeek_Execute
+  commentId: M:ASE_Assignment.AppPeek.Execute
+  fullName: ASE_Assignment.AppPeek.Execute()
+  nameWithType: AppPeek.Execute()
+- uid: ASE_Assignment.AppPeek.Execute*
+  name: Execute
+  href: api/ASE_Assignment.AppPeek.html#ASE_Assignment_AppPeek_Execute_
+  commentId: Overload:ASE_Assignment.AppPeek.Execute
+  isSpec: "True"
+  fullName: ASE_Assignment.AppPeek.Execute
+  nameWithType: AppPeek.Execute
+- uid: ASE_Assignment.AppPoke
+  name: AppPoke
+  href: api/ASE_Assignment.AppPoke.html
+  commentId: T:ASE_Assignment.AppPoke
+  fullName: ASE_Assignment.AppPoke
+  nameWithType: AppPoke
+- uid: ASE_Assignment.AppPoke.Compile
+  name: Compile()
+  href: api/ASE_Assignment.AppPoke.html#ASE_Assignment_AppPoke_Compile
+  commentId: M:ASE_Assignment.AppPoke.Compile
+  fullName: ASE_Assignment.AppPoke.Compile()
+  nameWithType: AppPoke.Compile()
+- uid: ASE_Assignment.AppPoke.Compile*
+  name: Compile
+  href: api/ASE_Assignment.AppPoke.html#ASE_Assignment_AppPoke_Compile_
+  commentId: Overload:ASE_Assignment.AppPoke.Compile
+  isSpec: "True"
+  fullName: ASE_Assignment.AppPoke.Compile
+  nameWithType: AppPoke.Compile
+- uid: ASE_Assignment.AppPoke.Execute
+  name: Execute()
+  href: api/ASE_Assignment.AppPoke.html#ASE_Assignment_AppPoke_Execute
+  commentId: M:ASE_Assignment.AppPoke.Execute
+  fullName: ASE_Assignment.AppPoke.Execute()
+  nameWithType: AppPoke.Execute()
+- uid: ASE_Assignment.AppPoke.Execute*
+  name: Execute
+  href: api/ASE_Assignment.AppPoke.html#ASE_Assignment_AppPoke_Execute_
+  commentId: Overload:ASE_Assignment.AppPoke.Execute
+  isSpec: "True"
+  fullName: ASE_Assignment.AppPoke.Execute
+  nameWithType: AppPoke.Execute
+- uid: ASE_Assignment.AppReal
+  name: AppReal
+  href: api/ASE_Assignment.AppReal.html
+  commentId: T:ASE_Assignment.AppReal
+  fullName: ASE_Assignment.AppReal
+  nameWithType: AppReal
+- uid: ASE_Assignment.AppReal.Restrictions
+  name: Restrictions()
+  href: api/ASE_Assignment.AppReal.html#ASE_Assignment_AppReal_Restrictions
+  commentId: M:ASE_Assignment.AppReal.Restrictions
+  fullName: ASE_Assignment.AppReal.Restrictions()
+  nameWithType: AppReal.Restrictions()
+- uid: ASE_Assignment.AppReal.Restrictions*
+  name: Restrictions
+  href: api/ASE_Assignment.AppReal.html#ASE_Assignment_AppReal_Restrictions_
+  commentId: Overload:ASE_Assignment.AppReal.Restrictions
+  isSpec: "True"
+  fullName: ASE_Assignment.AppReal.Restrictions
+  nameWithType: AppReal.Restrictions
+- uid: ASE_Assignment.AppStoredProgram
+  name: AppStoredProgram
+  href: api/ASE_Assignment.AppStoredProgram.html
+  commentId: T:ASE_Assignment.AppStoredProgram
+  fullName: ASE_Assignment.AppStoredProgram
+  nameWithType: AppStoredProgram
+- uid: ASE_Assignment.AppStoredProgram.#ctor(BOOSE.ICanvas)
+  name: AppStoredProgram(ICanvas)
+  href: api/ASE_Assignment.AppStoredProgram.html#ASE_Assignment_AppStoredProgram__ctor_BOOSE_ICanvas_
+  commentId: M:ASE_Assignment.AppStoredProgram.#ctor(BOOSE.ICanvas)
+  name.vb: New(ICanvas)
+  fullName: ASE_Assignment.AppStoredProgram.AppStoredProgram(BOOSE.ICanvas)
+  fullName.vb: ASE_Assignment.AppStoredProgram.New(BOOSE.ICanvas)
+  nameWithType: AppStoredProgram.AppStoredProgram(ICanvas)
+  nameWithType.vb: AppStoredProgram.New(ICanvas)
+- uid: ASE_Assignment.AppStoredProgram.#ctor*
+  name: AppStoredProgram
+  href: api/ASE_Assignment.AppStoredProgram.html#ASE_Assignment_AppStoredProgram__ctor_
+  commentId: Overload:ASE_Assignment.AppStoredProgram.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: ASE_Assignment.AppStoredProgram.AppStoredProgram
+  fullName.vb: ASE_Assignment.AppStoredProgram.New
+  nameWithType: AppStoredProgram.AppStoredProgram
+  nameWithType.vb: AppStoredProgram.New
+- uid: ASE_Assignment.AppStoredProgram.Run
+  name: Run()
+  href: api/ASE_Assignment.AppStoredProgram.html#ASE_Assignment_AppStoredProgram_Run
+  commentId: M:ASE_Assignment.AppStoredProgram.Run
+  fullName: ASE_Assignment.AppStoredProgram.Run()
+  nameWithType: AppStoredProgram.Run()
+- uid: ASE_Assignment.AppStoredProgram.Run*
+  name: Run
+  href: api/ASE_Assignment.AppStoredProgram.html#ASE_Assignment_AppStoredProgram_Run_
+  commentId: Overload:ASE_Assignment.AppStoredProgram.Run
+  isSpec: "True"
+  fullName: ASE_Assignment.AppStoredProgram.Run
+  nameWithType: AppStoredProgram.Run
+- uid: ASE_Assignment.AppWhile
+  name: AppWhile
+  href: api/ASE_Assignment.AppWhile.html
+  commentId: T:ASE_Assignment.AppWhile
+  fullName: ASE_Assignment.AppWhile
+  nameWithType: AppWhile
 - uid: ASE_Assignment.BooseInterpreter
   name: BooseInterpreter
   href: api/ASE_Assignment.BooseInterpreter.html
@@ -290,15 +676,15 @@ references:
   fullName.vb: ASE_Assignment.Circle.New()
   nameWithType: Circle.Circle()
   nameWithType.vb: Circle.New()
-- uid: ASE_Assignment.Circle.#ctor(BOOSE.Canvas,System.Int32)
-  name: Circle(Canvas, int)
-  href: api/ASE_Assignment.Circle.html#ASE_Assignment_Circle__ctor_BOOSE_Canvas_System_Int32_
-  commentId: M:ASE_Assignment.Circle.#ctor(BOOSE.Canvas,System.Int32)
-  name.vb: New(Canvas, Integer)
-  fullName: ASE_Assignment.Circle.Circle(BOOSE.Canvas, int)
-  fullName.vb: ASE_Assignment.Circle.New(BOOSE.Canvas, Integer)
-  nameWithType: Circle.Circle(Canvas, int)
-  nameWithType.vb: Circle.New(Canvas, Integer)
+- uid: ASE_Assignment.Circle.#ctor(System.Int32)
+  name: Circle(int)
+  href: api/ASE_Assignment.Circle.html#ASE_Assignment_Circle__ctor_System_Int32_
+  commentId: M:ASE_Assignment.Circle.#ctor(System.Int32)
+  name.vb: New(Integer)
+  fullName: ASE_Assignment.Circle.Circle(int)
+  fullName.vb: ASE_Assignment.Circle.New(Integer)
+  nameWithType: Circle.Circle(int)
+  nameWithType.vb: Circle.New(Integer)
 - uid: ASE_Assignment.Circle.#ctor*
   name: Circle
   href: api/ASE_Assignment.Circle.html#ASE_Assignment_Circle__ctor_
@@ -493,6 +879,69 @@ references:
   isSpec: "True"
   fullName: ASE_Assignment.Rect.Execute
   nameWithType: Rect.Execute
+- uid: ASE_Assignment.Tri
+  name: Tri
+  href: api/ASE_Assignment.Tri.html
+  commentId: T:ASE_Assignment.Tri
+  fullName: ASE_Assignment.Tri
+  nameWithType: Tri
+- uid: ASE_Assignment.Tri.#ctor
+  name: Tri()
+  href: api/ASE_Assignment.Tri.html#ASE_Assignment_Tri__ctor
+  commentId: M:ASE_Assignment.Tri.#ctor
+  name.vb: New()
+  fullName: ASE_Assignment.Tri.Tri()
+  fullName.vb: ASE_Assignment.Tri.New()
+  nameWithType: Tri.Tri()
+  nameWithType.vb: Tri.New()
+- uid: ASE_Assignment.Tri.#ctor(System.Int32,System.Int32)
+  name: Tri(int, int)
+  href: api/ASE_Assignment.Tri.html#ASE_Assignment_Tri__ctor_System_Int32_System_Int32_
+  commentId: M:ASE_Assignment.Tri.#ctor(System.Int32,System.Int32)
+  name.vb: New(Integer, Integer)
+  fullName: ASE_Assignment.Tri.Tri(int, int)
+  fullName.vb: ASE_Assignment.Tri.New(Integer, Integer)
+  nameWithType: Tri.Tri(int, int)
+  nameWithType.vb: Tri.New(Integer, Integer)
+- uid: ASE_Assignment.Tri.#ctor*
+  name: Tri
+  href: api/ASE_Assignment.Tri.html#ASE_Assignment_Tri__ctor_
+  commentId: Overload:ASE_Assignment.Tri.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: ASE_Assignment.Tri.Tri
+  fullName.vb: ASE_Assignment.Tri.New
+  nameWithType: Tri.Tri
+  nameWithType.vb: Tri.New
+- uid: ASE_Assignment.Tri.CheckParameters(System.String[])
+  name: CheckParameters(string[])
+  href: api/ASE_Assignment.Tri.html#ASE_Assignment_Tri_CheckParameters_System_String___
+  commentId: M:ASE_Assignment.Tri.CheckParameters(System.String[])
+  name.vb: CheckParameters(String())
+  fullName: ASE_Assignment.Tri.CheckParameters(string[])
+  fullName.vb: ASE_Assignment.Tri.CheckParameters(String())
+  nameWithType: Tri.CheckParameters(string[])
+  nameWithType.vb: Tri.CheckParameters(String())
+- uid: ASE_Assignment.Tri.CheckParameters*
+  name: CheckParameters
+  href: api/ASE_Assignment.Tri.html#ASE_Assignment_Tri_CheckParameters_
+  commentId: Overload:ASE_Assignment.Tri.CheckParameters
+  isSpec: "True"
+  fullName: ASE_Assignment.Tri.CheckParameters
+  nameWithType: Tri.CheckParameters
+- uid: ASE_Assignment.Tri.Execute
+  name: Execute()
+  href: api/ASE_Assignment.Tri.html#ASE_Assignment_Tri_Execute
+  commentId: M:ASE_Assignment.Tri.Execute
+  fullName: ASE_Assignment.Tri.Execute()
+  nameWithType: Tri.Execute()
+- uid: ASE_Assignment.Tri.Execute*
+  name: Execute
+  href: api/ASE_Assignment.Tri.html#ASE_Assignment_Tri_Execute_
+  commentId: Overload:ASE_Assignment.Tri.Execute
+  isSpec: "True"
+  fullName: ASE_Assignment.Tri.Execute
+  nameWithType: Tri.Execute
 - uid: ASE_Assignment.WriteText
   name: WriteText
   href: api/ASE_Assignment.WriteText.html
@@ -508,15 +957,15 @@ references:
   fullName.vb: ASE_Assignment.WriteText.New()
   nameWithType: WriteText.WriteText()
   nameWithType.vb: WriteText.New()
-- uid: ASE_Assignment.WriteText.#ctor(BOOSE.Canvas,System.String)
-  name: WriteText(Canvas, string)
-  href: api/ASE_Assignment.WriteText.html#ASE_Assignment_WriteText__ctor_BOOSE_Canvas_System_String_
-  commentId: M:ASE_Assignment.WriteText.#ctor(BOOSE.Canvas,System.String)
-  name.vb: New(Canvas, String)
-  fullName: ASE_Assignment.WriteText.WriteText(BOOSE.Canvas, string)
-  fullName.vb: ASE_Assignment.WriteText.New(BOOSE.Canvas, String)
-  nameWithType: WriteText.WriteText(Canvas, string)
-  nameWithType.vb: WriteText.New(Canvas, String)
+- uid: ASE_Assignment.WriteText.#ctor(System.String)
+  name: WriteText(string)
+  href: api/ASE_Assignment.WriteText.html#ASE_Assignment_WriteText__ctor_System_String_
+  commentId: M:ASE_Assignment.WriteText.#ctor(System.String)
+  name.vb: New(String)
+  fullName: ASE_Assignment.WriteText.WriteText(string)
+  fullName.vb: ASE_Assignment.WriteText.New(String)
+  nameWithType: WriteText.WriteText(string)
+  nameWithType.vb: WriteText.New(String)
 - uid: ASE_Assignment.WriteText.#ctor*
   name: WriteText
   href: api/ASE_Assignment.WriteText.html#ASE_Assignment_WriteText__ctor_
@@ -581,6 +1030,84 @@ references:
   isSpec: "True"
   fullName: ASE_AssignmentTests.AppCanvasTests.Setup
   nameWithType: AppCanvasTests.Setup
+- uid: ASE_AssignmentTests.AppCanvasTests.TestAppArray_NoRestrictions
+  name: TestAppArray_NoRestrictions()
+  href: api/ASE_AssignmentTests.AppCanvasTests.html#ASE_AssignmentTests_AppCanvasTests_TestAppArray_NoRestrictions
+  commentId: M:ASE_AssignmentTests.AppCanvasTests.TestAppArray_NoRestrictions
+  fullName: ASE_AssignmentTests.AppCanvasTests.TestAppArray_NoRestrictions()
+  nameWithType: AppCanvasTests.TestAppArray_NoRestrictions()
+- uid: ASE_AssignmentTests.AppCanvasTests.TestAppArray_NoRestrictions*
+  name: TestAppArray_NoRestrictions
+  href: api/ASE_AssignmentTests.AppCanvasTests.html#ASE_AssignmentTests_AppCanvasTests_TestAppArray_NoRestrictions_
+  commentId: Overload:ASE_AssignmentTests.AppCanvasTests.TestAppArray_NoRestrictions
+  isSpec: "True"
+  fullName: ASE_AssignmentTests.AppCanvasTests.TestAppArray_NoRestrictions
+  nameWithType: AppCanvasTests.TestAppArray_NoRestrictions
+- uid: ASE_AssignmentTests.AppCanvasTests.TestAppFor_NoRestrictions
+  name: TestAppFor_NoRestrictions()
+  href: api/ASE_AssignmentTests.AppCanvasTests.html#ASE_AssignmentTests_AppCanvasTests_TestAppFor_NoRestrictions
+  commentId: M:ASE_AssignmentTests.AppCanvasTests.TestAppFor_NoRestrictions
+  fullName: ASE_AssignmentTests.AppCanvasTests.TestAppFor_NoRestrictions()
+  nameWithType: AppCanvasTests.TestAppFor_NoRestrictions()
+- uid: ASE_AssignmentTests.AppCanvasTests.TestAppFor_NoRestrictions*
+  name: TestAppFor_NoRestrictions
+  href: api/ASE_AssignmentTests.AppCanvasTests.html#ASE_AssignmentTests_AppCanvasTests_TestAppFor_NoRestrictions_
+  commentId: Overload:ASE_AssignmentTests.AppCanvasTests.TestAppFor_NoRestrictions
+  isSpec: "True"
+  fullName: ASE_AssignmentTests.AppCanvasTests.TestAppFor_NoRestrictions
+  nameWithType: AppCanvasTests.TestAppFor_NoRestrictions
+- uid: ASE_AssignmentTests.AppCanvasTests.TestAppIf_NoRestrictions
+  name: TestAppIf_NoRestrictions()
+  href: api/ASE_AssignmentTests.AppCanvasTests.html#ASE_AssignmentTests_AppCanvasTests_TestAppIf_NoRestrictions
+  commentId: M:ASE_AssignmentTests.AppCanvasTests.TestAppIf_NoRestrictions
+  fullName: ASE_AssignmentTests.AppCanvasTests.TestAppIf_NoRestrictions()
+  nameWithType: AppCanvasTests.TestAppIf_NoRestrictions()
+- uid: ASE_AssignmentTests.AppCanvasTests.TestAppIf_NoRestrictions*
+  name: TestAppIf_NoRestrictions
+  href: api/ASE_AssignmentTests.AppCanvasTests.html#ASE_AssignmentTests_AppCanvasTests_TestAppIf_NoRestrictions_
+  commentId: Overload:ASE_AssignmentTests.AppCanvasTests.TestAppIf_NoRestrictions
+  isSpec: "True"
+  fullName: ASE_AssignmentTests.AppCanvasTests.TestAppIf_NoRestrictions
+  nameWithType: AppCanvasTests.TestAppIf_NoRestrictions
+- uid: ASE_AssignmentTests.AppCanvasTests.TestAppInt_NoRestrictions
+  name: TestAppInt_NoRestrictions()
+  href: api/ASE_AssignmentTests.AppCanvasTests.html#ASE_AssignmentTests_AppCanvasTests_TestAppInt_NoRestrictions
+  commentId: M:ASE_AssignmentTests.AppCanvasTests.TestAppInt_NoRestrictions
+  fullName: ASE_AssignmentTests.AppCanvasTests.TestAppInt_NoRestrictions()
+  nameWithType: AppCanvasTests.TestAppInt_NoRestrictions()
+- uid: ASE_AssignmentTests.AppCanvasTests.TestAppInt_NoRestrictions*
+  name: TestAppInt_NoRestrictions
+  href: api/ASE_AssignmentTests.AppCanvasTests.html#ASE_AssignmentTests_AppCanvasTests_TestAppInt_NoRestrictions_
+  commentId: Overload:ASE_AssignmentTests.AppCanvasTests.TestAppInt_NoRestrictions
+  isSpec: "True"
+  fullName: ASE_AssignmentTests.AppCanvasTests.TestAppInt_NoRestrictions
+  nameWithType: AppCanvasTests.TestAppInt_NoRestrictions
+- uid: ASE_AssignmentTests.AppCanvasTests.TestAppReal_NoRestrictions
+  name: TestAppReal_NoRestrictions()
+  href: api/ASE_AssignmentTests.AppCanvasTests.html#ASE_AssignmentTests_AppCanvasTests_TestAppReal_NoRestrictions
+  commentId: M:ASE_AssignmentTests.AppCanvasTests.TestAppReal_NoRestrictions
+  fullName: ASE_AssignmentTests.AppCanvasTests.TestAppReal_NoRestrictions()
+  nameWithType: AppCanvasTests.TestAppReal_NoRestrictions()
+- uid: ASE_AssignmentTests.AppCanvasTests.TestAppReal_NoRestrictions*
+  name: TestAppReal_NoRestrictions
+  href: api/ASE_AssignmentTests.AppCanvasTests.html#ASE_AssignmentTests_AppCanvasTests_TestAppReal_NoRestrictions_
+  commentId: Overload:ASE_AssignmentTests.AppCanvasTests.TestAppReal_NoRestrictions
+  isSpec: "True"
+  fullName: ASE_AssignmentTests.AppCanvasTests.TestAppReal_NoRestrictions
+  nameWithType: AppCanvasTests.TestAppReal_NoRestrictions
+- uid: ASE_AssignmentTests.AppCanvasTests.TestAppWhile_NoRestrictions
+  name: TestAppWhile_NoRestrictions()
+  href: api/ASE_AssignmentTests.AppCanvasTests.html#ASE_AssignmentTests_AppCanvasTests_TestAppWhile_NoRestrictions
+  commentId: M:ASE_AssignmentTests.AppCanvasTests.TestAppWhile_NoRestrictions
+  fullName: ASE_AssignmentTests.AppCanvasTests.TestAppWhile_NoRestrictions()
+  nameWithType: AppCanvasTests.TestAppWhile_NoRestrictions()
+- uid: ASE_AssignmentTests.AppCanvasTests.TestAppWhile_NoRestrictions*
+  name: TestAppWhile_NoRestrictions
+  href: api/ASE_AssignmentTests.AppCanvasTests.html#ASE_AssignmentTests_AppCanvasTests_TestAppWhile_NoRestrictions_
+  commentId: Overload:ASE_AssignmentTests.AppCanvasTests.TestAppWhile_NoRestrictions
+  isSpec: "True"
+  fullName: ASE_AssignmentTests.AppCanvasTests.TestAppWhile_NoRestrictions
+  nameWithType: AppCanvasTests.TestAppWhile_NoRestrictions
 - uid: ASE_AssignmentTests.AppCanvasTests.TestDrawTo_SetsPenPosition
   name: TestDrawTo_SetsPenPosition()
   href: api/ASE_AssignmentTests.AppCanvasTests.html#ASE_AssignmentTests_AppCanvasTests_TestDrawTo_SetsPenPosition
